@@ -19,3 +19,6 @@ Out of scope:
 - Performance-only issues without correctness impact
 
 All valid reports will be acknowledged.
+
+## Formal Verification
+Formal proofs and TLA+ specs: https://github.com/purpledancingfrogs/DGK-Formal-Specs
