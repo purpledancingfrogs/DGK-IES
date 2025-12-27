@@ -1,27 +1,34 @@
-# DGK-IES � Deterministic Governance Kernel: Invariant Enforcement Substrate
+﻿# DGK-IES
+**Deterministic Governance Kernel — Information Entropy System**
 
-DGK-IES is the hardware- and kernel-adjacent enforcement layer for the Deterministic Governance Kernel (DGK).
+Information does not vanish.  
+It fragments, reflects, and persists under constraint.
 
-Its role is to ensure that governance invariants (identity integrity, causal traceability, risk bounds) are enforced **before execution**, at the lowest viable level of the stack.
+DGK-IES is a deterministic, auditable system for modeling how information behaves under pressure: fragmentation, boundary enforcement, degradation, and paradox preservation. It treats intelligence failures and contradictions as *physical-style systems with invariants*, not bugs to be smoothed away.
 
-## Purpose
-- Prevent bypass of DGK logic via kernel exploits, memory corruption, or side-channel execution
-- Bind execution permission to invariant proofs
-- Close the gap between symbolic governance and physical execution
+## Core Principles
+- **Determinism first** — reproducible outputs, no hidden stochasticity
+- **Auditability** — every transformation traceable
+- **Constraint realism** — limits are modeled, not ignored
+- **Paradox preservation** — contradictions are surfaced, not collapsed
+- **Entropy-aware design** — degradation is a feature to study, not an error
 
-## Scope
-- Kernel enforcement hooks
-- Deterministic secure boot verification
-- Hardware-level execution gating
-- Feedback of rejected executions into aureon-time-meaning-decision
+## What This Is
+- A kernel for reasoning about intelligence under constraints  
+- A sandbox for governance, safety, and degradation mechanics  
+- A foundation for higher-order audit and alignment systems  
+
+## What This Is Not
+- A probabilistic LLM
+- A black-box optimizer
+- A narrative or demo-only project
 
 ## Status
-Foundational scaffold. No execution without invariant verification.
+Early-stage core repository.  
+Interfaces, invariants, and primitives are being stabilized.
 
-## Relationship to Stack
-- Consumes invariants from planetary-coherence-OS
-- Requires causal signatures from aureon-time-meaning-decision
-- Acts as precondition layer for all UIO activity
+## License
+MIT — open for inspection, critique, and extension.
 
-DGK-IES is not safety software.
-It is execution physics.
+---
+*"Information doesn't disappear. It reorganizes."*
