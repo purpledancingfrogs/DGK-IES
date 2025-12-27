@@ -1,4 +1,4 @@
-# Kernel Enforcement Layer
+﻿# Kernel Enforcement Layer
 
 This layer embeds DGK invariants directly into the execution path.
 

@@ -1,4 +1,4 @@
-# Hardware Hooks
+﻿# Hardware Hooks
 
 Optional architecture-specific execution gates.
 

@@ -1,4 +1,4 @@
-# Secure Boot Chain
+﻿# Secure Boot Chain
 
 This component ensures DGK-IES integrity before any execution occurs.
 

@@ -1,0 +1,12 @@
+name: Invariant Enforcement Check
+
+on: [push, pull_request]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Reference Engine
+        run: |
+          python src/reference_engine.py verification/sample_state_prev.json verification/sample_state_curr.json
